@@ -55,14 +55,14 @@ clean                🧹 Clean up project
 
 Make file variables and default values, pass these in when calling `make`, e.g. `make image IMAGE_REPO=blah/foo`
 
-| Makefile Variable | Default                |
-| ----------------- | ---------------------- |
-| IMAGE_REG         | ghcr<span>.</span>io   |
-| IMAGE_REPO        | benc-uk/python-demoapp |
-| IMAGE_TAG         | latest                 |
-| AZURE_RES_GROUP   | temp-demoapps          |
-| AZURE_REGION      | uksouth                |
-| AZURE_SITE_NAME   | pythonapp-{git-sha}    |
+| Makefile Variable | Default                         |
+| ----------------- | --------------------------------|
+| IMAGE_REG         | docker<span>.</span>io          |
+| IMAGE_REPO        | pavankumarindian/python-demoapp |
+| IMAGE_TAG         | latest                          |
+| AZURE_RES_GROUP   | temp-demoapps                   |
+| AZURE_REGION      | uksouth                         |
+| AZURE_SITE_NAME   | pythonapp-{git-sha}             |
 
 The app runs under Flask and listens on port 5000 by default, this can be changed with the `PORT` environmental variable.
 
