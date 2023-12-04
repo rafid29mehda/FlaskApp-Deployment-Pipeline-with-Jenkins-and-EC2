@@ -31,7 +31,7 @@ Live instances:
 Clone the project to any directory where you do development work
 
 ```
-git clone https://github.com/benc-uk/python-demoapp.git
+git clone https://github.com/pavankumarindian/FlaskApp-Deployment-Pipeline-with-Jenkins-and-EC2.git
 ```
 
 ### Makefile
