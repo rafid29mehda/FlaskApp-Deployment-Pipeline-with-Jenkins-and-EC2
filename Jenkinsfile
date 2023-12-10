@@ -30,7 +30,6 @@ pipeline {
                     withDockerRegistry(credentialsId: 'DockerCred', toolName: 'docker') {
                     sh "docker images"  
                     sh "docker run -d -it -p 5000:5000 --name FlaskApp pavankumarindian/python-webapp:latest"
-                    sh "docker start FlaskApp"
                     }
                 }
             }
